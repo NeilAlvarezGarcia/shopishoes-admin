@@ -1,0 +1,15 @@
+:root {
+  --background: #ffffff;
+  --primary: #000000;
+  --foreground: #666666;
+  --secondary: #bbbbbba1;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --font-anybody: var(--font-anybody);
+  --font-hanken-grotesk: var(--font-hanken-grotesk);
+}
