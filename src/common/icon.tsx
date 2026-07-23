@@ -1,10 +1,11 @@
-import { ChevronLeft, ListFilter, LucideProps, Plus } from 'lucide-react';
+import { ChevronLeft, ListFilter, LucideProps, Plus, Trash2 } from 'lucide-react';
 import { FC } from 'react';
 
 const icons = {
     plus: Plus,
     filter: ListFilter,
     back: ChevronLeft,
+    remove: Trash2,
 };
 
 export type IconName = keyof typeof icons;

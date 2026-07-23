@@ -7,9 +7,9 @@ interface InputProps extends Omit<React.HtmlHTMLAttributes<HTMLInputElement | HT
 
 export const Input: FC<InputProps> = ({ label, error, ...props }) => {
     return (
-        <section className="w-full">
+        <fieldset className="w-full">
             <label htmlFor={label} className="font-bold text-lg">{label}</label>
             <input id={label} className="border border-secondary rounded p-2 w-full" {...props} />
-        </section>
+        </fieldset>
     );
 };
