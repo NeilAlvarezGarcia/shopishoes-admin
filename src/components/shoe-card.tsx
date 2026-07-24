@@ -13,7 +13,7 @@ interface ShoeCardProps {
 
 export const ShoeCard: FC<ShoeCardProps> = ({ name, price, bgImage, active }) => {
     return (
-        <Link href='/edit-shoe'>
+        <Link href='shoe'>
             <Card className="flex items-end h-80 lg:h-100">
                 <Img src={bgImage} alt={name} className="absolute inset-0 -z-10 w-full h-full object-cover" />
                 
