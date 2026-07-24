@@ -1,4 +1,4 @@
-import { ChevronLeft, ListFilter, LucideProps, Plus, Trash2 } from 'lucide-react';
+import { ChevronLeft, ListFilter, LucideProps, Pencil, Plus, Trash2 } from 'lucide-react';
 import { FC } from 'react';
 
 const icons = {
@@ -6,6 +6,7 @@ const icons = {
     filter: ListFilter,
     back: ChevronLeft,
     remove: Trash2,
+    edit: Pencil,
 };
 
 export type IconName = keyof typeof icons;
