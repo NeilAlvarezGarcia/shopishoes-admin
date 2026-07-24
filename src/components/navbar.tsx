@@ -7,10 +7,7 @@ const Navbar = () => {
         <h1 className='md:text-2xl text-xl'>ShopiShoes</h1>
       </Button>
       
-      <section className="flex items-center gap-4 border-l-2 border-gray-300 pl-4">
-        <p className='text-lg font-semibold'>Administrador</p>
-        <p>😊</p>
-      </section>
+      <p className='text-xl font-semibold border-l-2 border-gray-300 pl-4'>Administrador</p>
     </header>
   )
 }
